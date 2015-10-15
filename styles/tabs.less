@@ -43,11 +43,15 @@
       z-index: 3;
       text-align: right;
       line-height: @tab-height;
-      color: @text-color;
+      color: rgba(255, 255, 255, 0);
       padding-right: 10px;
 
       &:hover {
         color: inherit;
+        background-color: #fff;
+      }
+      &:before {
+        font-size:18px;
       }
     }
 
@@ -92,7 +96,7 @@
     }
   }
 
-  .tab:hover {
+  .tab:hover .close-icon {
     color: @text-color-highlight;
   }
 
