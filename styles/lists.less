@@ -6,7 +6,7 @@
   li:not(.list-nested-item),
   li.list-nested-item > .list-item {
     .text(normal);
-    color: @panel-text-color;
+    color: @text-color-unmodified;
   }
 
   .generate-list-item-text-color(@class) {
@@ -45,9 +45,13 @@
   }
 }
 
-.list-tree.has-collapsable-children .list-nested-item > .list-item::before  {
+.list-tree.has-collapsable-children .list-nested-item > .list-item::before,
+.list-tree.has-collapsable-children .list-nested-item.selected > .list-item::before,
+.list-tree.has-collapsable-children .list-nested-item.collapsed > .list-item::before {
     top: 6px;
     float: right;
+    font-size: @sidebar-icon-size;
+    margin-right: 20px;
 }
 
 .select-list ol.list-group,
