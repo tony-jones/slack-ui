@@ -3,6 +3,12 @@
   "theme": "ui",
   "version": "0.1.0",
   "description": "A light UI theme for Atom that is inspired by Slack's aubergine sidebar theme",
+  "keywords": [
+    "ui",
+    "theme",
+    "slack",
+    "slack interface"
+  ],
   "repository": "https://github.com/tony-jones/slack-ui",
   "license": "MIT",
   "engines": {
