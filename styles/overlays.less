@@ -27,7 +27,12 @@ atom-panel.modal, .overlay {
       &.two-lines { padding: @component-padding/2 @component-padding; }
       &.selected {
         color: @text-color;
-        background-color: @background-color-highlight;
+        background-color: @background-color-other;
+
+        span {
+          color: @panel-text-color;
+        }
+
       }
 
       .status.icon {

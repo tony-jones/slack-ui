@@ -61,7 +61,29 @@ atom-panel, .tool-panel {
     }
   }
 }
-//to be moved
+
+.settings-view .package-card {
+ border: 1px solid #C7CACD;
+}
+.settings-view .section {
+  border-top: 1px solid #C7CACD;
+}
+.settings-view .config-menu {
+  border-right: 1px solid #C7CACD;
+}
+.settings-view .config-menu .button-area > .btn {
+  width: 108%;
+  margin-left: -6px;
+}
+.settings-view select.form-control:hover, .settings-view select.form-control:focus {
+  border-color: @text-color-info;
+}
+.settings-view .package-card .meta-controls .status-indicator {
+  background: @text-color-info;
+}
+atom-panel.bottom, .tool-panel.bottom, atom-panel.panel-bottom, .tool-panel.panel-bottom {
+  border-top: 1px solid #C7CACD;
+}
 .icon {
   &::before {
     font-size: 14px;
