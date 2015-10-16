@@ -1,7 +1,7 @@
 {
   "name": "slack-ui",
   "theme": "ui",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "A light UI theme for Atom that is inspired by Slack's aubergine sidebar theme",
   "keywords": [
     "ui",
