@@ -37,6 +37,8 @@
     transition: color .1s ease-in;
     padding-left: 0px;
     padding-right: 0px;
+    border-bottom: 1px solid @tab-background-color;
+    border-top: 1px solid #ffffff;
 
     .close-icon {
       right: 0;
@@ -48,7 +50,7 @@
 
       &:hover {
         color: inherit;
-        background-color: #fff;
+        background-color: @panel-text-color;
       }
       &:before {
         font-size:18px;
@@ -69,16 +71,15 @@
     .title {
       position: relative;
       z-index: 1;
-      border-bottom: 1px solid #e8e8e8;
       padding-left: 20px;
       font-weight: bold;
     }
   }
 
   .tab.active {
-    border: 1px solid #e8e8e8;
-    background: #fff;
-    border-bottom-color: #fff;
+    border: 1px solid @tab-background-color;
+    background: @panel-text-color;
+    border-bottom-color: @panel-text-color;
     z-index: 1;
     color: @text-color-highlight;
     border-top-left-radius: 3px;
@@ -92,7 +93,7 @@
       position: relative;
       z-index: 1;
       padding-right: 10px;
-      border-bottom: 1px solid #ffffff;
+      border-bottom: 1px solid @panel-text-color;
     }
   }
 
@@ -116,7 +117,4 @@
       top: @tab-height + @tab-top-padding + @tab-bottom-border-height - 2px;
     }
   }
-}
-.icon::before  {
-  font-size: 11px;
 }
