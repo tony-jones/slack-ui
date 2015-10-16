@@ -1,14 +1,14 @@
 # Slack UI
 
-A light UI theme for Atom that is inspired by Slack's aubergine theme
+A light UI theme for Atom that is inspired by Slack's aubergine theme.
 
-![screen shot 2015-10-16 at 2 57 09 am](https://cloud.githubusercontent.com/assets/6729106/10535584/1026f332-73b2-11e5-8c4d-d05d8952675e.png)
+![screen shot 2015-10-16 at 3 27 27 am](https://cloud.githubusercontent.com/assets/6729106/10536027/e2dd1b32-73b5-11e5-90c6-0a391080773f.png)
 
 ## Installation
 
 Fire up a console and type:
 
-`$ apm install slack-ui` //COMING SOON...not yet published to Atom.
+`$ apm install slack-ui` 
 
 Or, inside Atom's settings select Install and then search for this package.
 
