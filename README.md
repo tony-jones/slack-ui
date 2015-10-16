@@ -13,3 +13,5 @@ Fire up a console and type:
 Or, inside Atom's settings select Install and then search for this package.
 
 ## Configuration
+
+Use with Atom's 'Atom Light' Syntax theme.
