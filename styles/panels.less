@@ -37,6 +37,7 @@ atom-panel, .tool-panel {
 .inset-panel {
   position: relative;
   background-color: @inset-panel-background-color;
+  padding: 10px;
 }
 
 .panel-heading {
@@ -44,7 +45,7 @@ atom-panel, .tool-panel {
   padding: @component-padding - 2px @component-padding;
 
   background-color: transparent;
-  background-image: -webkit-linear-gradient(@panel-heading-background-color, darken(@panel-heading-background-color, 10%));
+  font-size:16px;
 
   .btn {
     @bg: lighten(@button-background-color, 10%);

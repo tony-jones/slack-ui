@@ -1,15 +1,25 @@
 // Colors
 
+//slack primary palette
+@slack-red: #eb4d5c;
+@slack-yellow: #edb431;
+@slack-blue: #3aa3e3;
+@slack-green: #38978d;
+@slack-purple: #8a74b9;
+@slack-orange: #efb57c;
+@slack-border: #e8e8e8;
+@slack-bg: #F9F9F9;
+
 @text-color: #444;
 @text-color-subtle: #6E6E6E;
 @text-color-highlight: #000;
 @text-color-selected: #fff;
 @text-color-unmodified: #ab9ba9;
 
-@text-color-info: #5293d8;
-@text-color-success: #E0AA34;
-@text-color-warning: #38978D;
-@text-color-error: #c00;
+@text-color-info: @slack-green;
+@text-color-success:  @slack-blue;
+@text-color-warning: @slack-yellow;
+@text-color-error: @slack-red;
 
 @text-color-ignored: @text-color-subtle;
 @text-color-added: @text-color-success;
@@ -20,20 +30,20 @@
 
 @panel-text-color: #fff;
 
-@background-color-info: #38978D;
-@background-color-success: #17ca65;
-@background-color-warning: #ff4800;
-@background-color-error: #c00;
+@background-color-info: @slack-green;
+@background-color-success: @slack-blue;
+@background-color-warning: @slack-yellow;
+@background-color-error: @slack-red;
 @background-color-highlight: rgba(0, 0, 0, .1);
-@background-color-other: #3D9EE3;
-@background-color-selected: #38978D;
-@background-color-slack-red: #EB4D5C;
-@background-key-bindings: #F2F2F5;
+@background-color-other: @slack-blue;
+@background-color-selected: @slack-green;
+@background-color-slack-red: @slack-red;
+@background-key-bindings: #414141;
 
 @app-background-color: #ccc;
 
-@base-background-color: #f4f4f4;
-@base-border-color: #9f9f9f;
+@base-background-color: @slack-bg;
+@base-border-color: @slack-border;
 
 @pane-item-background-color: @base-background-color;
 @pane-item-border-color: @base-border-color;
@@ -42,7 +52,7 @@
 @input-border-color: fadeout(@base-border-color, 10%);
 
 @tool-panel-background-color: @base-background-color;
-@tool-panel-border-color: @base-border-color;
+@tool-panel-border-color: @tab-background-color;
 
 @inset-panel-background-color: #fff;
 @inset-panel-border-color: fadeout(@base-border-color, 80%);
@@ -68,11 +78,11 @@
 @tree-view-background-color: #4D394B;
 @tree-view-border-color: @base-border-color;
 
-@ui-site-color-1: @background-color-success; // green
-@ui-site-color-2: @background-color-info; // blue
-@ui-site-color-3: @background-color-warning; // orange
-@ui-site-color-4: #db2ff4; // purple
-@ui-site-color-5: #f5e11d; // yellow
+@ui-site-color-1: @slack-green;
+@ui-site-color-2: @slack-blue;
+@ui-site-color-3: @slack-orange;
+@ui-site-color-4: @slack-purple;
+@ui-site-color-5: @slack-yellow;
 
 
 // Sizes
@@ -89,7 +99,6 @@
 @component-border-radius: 2px;
 
 @tab-height: 36px;
-
 
 // Other
 
