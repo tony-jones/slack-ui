@@ -2,6 +2,14 @@
 @import "ui-mixins";
 @import "octicon-mixins";
 
+.results-view > .list-nested-item {
+  background-color: @slack-bg;
+  border: 1px solid @slack-border;
+  padding: @component-padding;
+  border-radius: @component-border-radius;
+  margin-top: @component-margin;
+}
+
 .list-group, .list-tree {
   li:not(.list-nested-item),
   li.list-nested-item > .list-item {
@@ -149,4 +157,11 @@ li.ui-draggable-dragging, li.ui-sortable-helper {
 .list-inline > li {
   padding-left: 0px;
   padding-right: 0px;
+}
+.list-nested-item {
+  &.selected {
+    .path-match-number {
+      color: @text-white;
+    }
+  }
 }
