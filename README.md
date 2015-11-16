@@ -27,4 +27,4 @@ Use with Atom's 'Atom Light' Syntax theme.
 ## Contributing
 Contributions, questions and comments are all welcome and encouraged. For code contributions, please submit a pull request.  Related issues, bugs, and feature requests should be filed on the [Slack-UI](https://github.com/tony-jones/slack-ui/issues/new) issue tracker.
 
-If you like the theme please [Share on Twitter](https://twitter.com/intent/tweet?text=Slack%20UI,%20a%20light%20Atom%20theme%20inpired%20by%20Slacks%20Aubergine%20sidebar%20theme&url=http%3A%2F%2Fatom.io/themes/slack-ui&via=iamtonybagels).
+If you like the theme please [Share on Twitter](https://twitter.com/intent/tweet?text=Slack%20UI,%20a%20light%20Atom%20theme%20inspired%20by%20Slacks%20Aubergine%20sidebar%20theme&url=http%3A%2F%2Fatom.io/themes/slack-ui&via=iamtonybagels).
