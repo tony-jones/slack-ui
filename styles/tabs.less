@@ -46,7 +46,9 @@
       text-align: right;
       line-height: @tab-height;
       color: rgba(255, 255, 255, 0);
-      padding-right: 10px;
+      margin-right: 10px;
+      -webkit-animation: zoomOut 250ms ease;
+      -webkit-animation-fill-mode: forwards;
 
       &:hover {
         color: inherit;
@@ -62,7 +64,7 @@
       top: @tab-height/2 - @modified-icon-width/2 + 1px;
       width: @modified-icon-width;
       height: @modified-icon-width;
-      border: none;
+      border: 2px solid @slack-red;
     }
 
     &.modified:hover .close-icon:hover {
@@ -74,6 +76,7 @@
       z-index: 1;
       padding-left: 20px;
       font-weight: bold;
+
     }
   }
 
@@ -89,6 +92,7 @@
     .close-icon {
       line-height: @tab-height - 1px;
       color: @text-color;
+      -webkit-animation: zoomIn 250ms ease;
     }
     .title {
       position: relative;
